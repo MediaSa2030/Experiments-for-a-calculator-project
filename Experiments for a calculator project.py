@@ -1,4 +1,4 @@
-
+# هاذا كود يعمل على تسجيل شاشة الهدف(يوجد خطء)
 #import pyautogui
 #import cv2
 #import time
@@ -40,7 +40,7 @@
 
 
 
-
+# هاذا الكود يعمل على تسجيل شاشة الهدف يعمل بشكل سليم
 
 import pyautogui
 import cv2
@@ -56,7 +56,7 @@ print(f"Current working directory: {os.getcwd()}")
 # Screen recording settings
 SCREEN_SIZE = pyautogui.size()  # Automatically detect screen resolution
 VIDEO_NAME = "screen_recording.mp4"
-FPS = 3
+FPS = 3              # عدد الفريمات وا سرعة التشغيل
 RECORDING_TIME = 10  # Duration of the recording in seconds for testing purposes
 
 def record_screen():
